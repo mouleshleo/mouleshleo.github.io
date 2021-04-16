@@ -1,0 +1,17 @@
+.center {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bolder;
+	font-size: 34px;
+
+}
+
+.bq {
+	border-left: 6px green solid;
+	padding: 10px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bolder;
+	
+}
