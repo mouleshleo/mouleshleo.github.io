@@ -8,7 +8,14 @@
       type="image/ico"
       href="https://www.google.com/favicon.ico"
     />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://www.google.com/favicon.ico"
+    />
+    <meta name="theme-color" content="#000l" />
     <script src="index.js"></script>
+
     <!-- Google Font Icons -->
 
     <link
@@ -16,7 +23,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="googleweb.js"></script>
     <title>Moulesh's Google</title>
   </head>
   <body>
@@ -26,7 +32,12 @@
         <a href="#">Gmail</a>
         <a href="#">Images</a>
         <span class="material-icons header__apps"> apps </span>
-        <span class="material-icons" style="color: gray"> account_circle</span>
+        <span
+          class="material-icons"
+          style="color: gray; cursor: pointer; user-select: none"
+        >
+          account_circle</span
+        >
       </div>
     </div>
     <!-- Header Ends -->
@@ -43,9 +54,16 @@
       <div class="search">
         <div class="search__input">
           <span class="material-icons"> search </span>
-          <input type="text" placeholder="Enter your name"/>
-          <span class="material-icons" id="mic"> mic </span>
-          <span class="material-icons" id="verified" onmousedown="return false"
+          <input
+            id="searchbar"
+            type="text"
+            placeholder="Enter your name and click the tick"
+          />
+          <span
+            class="material-icons"
+            id="verified"
+            onclick="search()"
+            onmousedown="return false"
             >verified</span
           >
         </div>
@@ -56,7 +74,6 @@
         </div>
       </div>
     </div>
-
-  <!-- Main Body Ends -->
+    <!-- Main Body Ends -->
   </body>
 </html>
