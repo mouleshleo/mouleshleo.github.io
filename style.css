@@ -96,7 +96,7 @@ body {
 #verified {
   color: #1cbbff;
   padding-left: 2px;
-  cursor: default;
+  cursor: pointer;
 }
 
 .wrapper {
