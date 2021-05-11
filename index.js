@@ -20,3 +20,17 @@ function changeColor() {
   var change = document.getElementById("searchInput");
   change.style.border = "1px solid rgb(0, 132, 255)";
 }
+
+// page view counter
+
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+  fetch('https://api.countapi.xyz/update/moulesh/google/?amount=1')
+       .then(res => res.json())
+       .then(res => {
+    countEl.textContent = res.value;
+  })
+}

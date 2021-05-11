@@ -161,3 +161,15 @@ body {
 #searchbar::placeholder {
   font-size: 13.7px;
 }
+
+#dark {
+  color: rgb(12, 10, 10);
+  padding-right: 20px;
+  cursor: pointer;
+  margin: 0;
+  user-select: none;
+}
+
+#dark:hover {
+  transition: width;
+}
