@@ -40,23 +40,6 @@ function renderButton() {
   });
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // page view counter
 
 const countEl = document.getElementById('count');
