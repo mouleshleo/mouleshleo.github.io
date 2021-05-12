@@ -9,6 +9,8 @@
       content="Moulesh's google is here! search whatever you want."
     />
     <meta name="theme-color" content="#000" />
+    <meta name="google-signin-client_id" content="647071461055-s3t1r9uo7r91vrk2jp1ik206skr7kr3q.apps.googleusercontent.com">
+
 
     <!-- meta ends-->
 
@@ -85,6 +87,12 @@
         </div>
       </div>
     </div>
+    <div class="header__left">
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    </div>
   <!-- Main Body Ends -->
+
+  <!-- script tags -->
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
   </body>
 </html>

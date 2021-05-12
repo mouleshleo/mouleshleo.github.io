@@ -79,15 +79,15 @@ body {
 }
 
 .search__buttons {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
 
 .search__buttons button {
-  margin: 5px;
+  margin: 6px;
   padding: 10px 15px;
-  background-color: #f8f8f8;
+  background-color: #e8e6e6;
   outline: none;
   border: none;
   cursor: pointer;
@@ -172,4 +172,10 @@ body {
 
 #dark:hover {
   transition: width;
+}
+
+.header__left {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
 }
