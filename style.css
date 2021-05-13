@@ -179,3 +179,10 @@ body {
   justify-content: center;
   margin-bottom: 100px;
 }
+
+#signout {
+    display: flex;
+    justify-content: center;
+    text-decoration:none;
+}
+
