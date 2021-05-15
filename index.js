@@ -58,6 +58,8 @@ function blog() {
   alert("blog is coming soon");
 }
 
+// preloder 
+
 var loader;
 function loadNow(opacity) {
   if (opacity <= 0) {
@@ -65,8 +67,8 @@ function loadNow(opacity) {
   } else {
     loader.style.opacity = opacity;
     window.setTimeout(function () {
-      loadNow(opacity - 0.05);
-    }, 90);
+      loadNow(opacity - 0.06);
+    }, 100);
   }
 }
 
@@ -77,5 +79,5 @@ function displayContent() {
 
 document.addEventListener("DOMContentLoaded", function () {
   loader = document.getElementById("loader");
-  loadNow(1);
+  loadNow(1.8);
 });
