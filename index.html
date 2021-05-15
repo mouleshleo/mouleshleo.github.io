@@ -122,14 +122,25 @@
     <script src="index.js"></script>
   </head>
   <body>
+
+    <!-- preloader -->
+
+    <div id="loader"></div>
+    <div id="content"></div>
     <!-- Header Starts -->
 
     <div class="header">
       <div class="header__right">
         <a onclick="gmail()">Gmail</a>
-        <a href="#">Images</a>
+        <a href="" id="blog" onclick="blog()">Blog</a>
         <span class="material-icons header__apps"> apps </span>
-        <span class="material-icons" id=""> account_circle</span>
+        <span
+          class="material-icons-outlined"
+          id="account"
+          onclick="changeAccount()"
+        >
+          account_circle</span
+        >
       </div>
     </div>
     <!-- Header Ends -->

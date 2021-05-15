@@ -39,6 +39,11 @@ body {
   margin-right: 10px;
 }
 
+.header #account {
+  color: rgb(46, 45, 45);
+  user-select: none;
+  cursor: pointer;
+}
 /* Main Body */
 
 .mainBody {
@@ -145,7 +150,7 @@ body {
 }
 
 .buttons a {
-  color: #fcba7f;
+  color: #ffffff;
   text-decoration: none;
   margin-left: 9px;
 }
@@ -162,14 +167,6 @@ body {
   font-size: 13.7px;
 }
 
-#dark {
-  color: rgb(12, 10, 10);
-  padding-right: 20px;
-  cursor: pointer;
-  margin: 0;
-  user-select: none;
-}
-
 #dark:hover {
   transition: width;
 }
@@ -181,8 +178,20 @@ body {
 }
 
 #signout {
-    display: flex;
-    justify-content: center;
-    text-decoration:none;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+/* loader */
+
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: #ffffff url('images/preloader.gif') no-repeat center center;
 }
 
