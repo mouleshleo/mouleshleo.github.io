@@ -46,6 +46,7 @@ function signOut() {
   });
 }
 
+
 function onSignIn(googleUser) {
   var profile = googleUser.getBasicProfile();
   console.log("ID: " + profile.getId()); // Do not send to your backend! Use an ID token instead.
@@ -58,7 +59,7 @@ function blog() {
   alert("blog is coming soon");
 }
 
-// preloder 
+// preloder
 
 var loader;
 function loadNow(opacity) {
@@ -81,3 +82,4 @@ document.addEventListener("DOMContentLoaded", function () {
   loader = document.getElementById("loader");
   loadNow(2);
 });
+

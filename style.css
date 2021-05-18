@@ -55,6 +55,13 @@ body {
 .mainBody img {
   object-fit: contain;
   height: 100px;
+  opacity: 1;
+  transition: opacity 1.3s ease-in;
+}
+
+.mainBody img:hover {
+  opacity: 0.05;
+  
 }
 
 /* search */
