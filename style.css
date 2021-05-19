@@ -14,8 +14,10 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 18px 30px;
   align-items: center;
+  background-color: #b8c6db;
+background-image: linear-gradient(to right, #dee1e1 -70%, #f5f7fa 64%);
 }
 
 #logo {
@@ -66,6 +68,7 @@ body {
   flex: 1;
   display: flex;
   margin-top: 10%;
+  padding-top: 10px;
   flex-direction: column;
 }
 
@@ -99,12 +102,10 @@ body {
   flex: 1;
   padding: 10px 20px;
   border: none;
+  background: transparent;
   outline: none;
 }
 
-.search__input .material-icons {
-  color: gray;
-}
 
 .search__buttons {
   margin-top: 20px;
@@ -217,4 +218,3 @@ body {
   overflow: visible;
   background: #ffffff url('images/preloader.gif') no-repeat center center;
 }
-

@@ -17,6 +17,7 @@
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     />
     <meta name="coverage" content="Worldwide" />
+    <link rel="preload" href="images/preloader.gif">
     <link rel="canonical" href="https://mouleshleo.github.io/" />
     <meta name="distribution" content="Global" />
     <meta name="target" content="all" />
@@ -144,61 +145,59 @@
   </head>
   <body>
     <!-- preloader -->
-
     <div id="loader"></div>
     <div id="content"></div>
     <!-- Header Starts -->
-
-    <div class="header">
-      <a href="#" id="logo"> Moulesh's google </a>
-      <div class="header__right">
-        <a onclick="gmail()">Gmail</a>
-        <a href="" id="blog" onclick="blog()">Blog</a>
-        <span class="material-icons header__apps"> apps </span>
-        <span
-          class="material-icons-outlined"
-          id="account"
-          onclick="changeAccount()"
-        >
-          account_circle</span
-        >
-      </div>
-    </div>
-    <!-- Header Ends -->
-
-    <!-- Main Body Starts -->
-    <div class="mainBody">
-      <img
-        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-        alt="Moulesh's Google clone logo"
-        title="google"
-      />
-
-      <!-- Search Starts -->
-      <div class="search">
-        <div class="search__input" id="searchInput" onclick="changeColor()" >
-          <span class="material-icons"> search </span>
-          <input
-            id="searchbar"
-            type="text"
-            placeholder="Enter your query and click the tick"
-          />
+      <div class="header">
+        <a href="#" id="logo"> Moulesh's google </a>
+        <div class="header__right">
+          <a onclick="gmail()">Gmail</a>
+          <a href="" id="blog" onclick="blog()">Blog</a>
+          <span class="material-icons header__apps"> apps </span>
           <span
-            class="material-icons"
-            id="verified"
-            onclick="search()"
-            onmousedown="return false"
-            title="search"
-            >verified</span
+            class="material-icons-outlined"
+            id="account"
+            onclick="changeAccount()"
+          >
+            account_circle</span
           >
         </div>
+      </div>
+      <!-- Header Ends -->
+      
+      <!-- Main Body Starts -->
+      <div class="mainBody">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          alt="Moulesh's Google clone logo"
+          title="google"
+        />
 
-        <div class="search__buttons">
-          <button onclick="search()">Google Search</button>
-          <button>I'm Feeling Lucky</button>
+        <!-- Search Starts -->
+        <div class="search">
+          <div class="search__input" id="searchInput" onclick="changeColor()" >
+            <span class="material-icons"> search </span>
+            <input
+              id="searchbar"
+              type="text"
+              placeholder="Enter your query and click the tick"
+            />
+            <span
+              class="material-icons"
+              id="verified"
+              onclick="search()"
+              onmousedown="return false"
+              title="search"
+              >verified</span
+            >
+          </div>
+
+          <div class="search__buttons">
+            <button onclick="search()">Google Search</button>
+            <button>I'm Feeling Lucky</button>
+          </div>
         </div>
       </div>
-    </div>
     <div class="header__left">
       <div class="g-signin2" data-onsuccess="onSignIn"></div>
     </div>
