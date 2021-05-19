@@ -19,9 +19,11 @@ body {
 }
 
 #logo {
-  font-family: 'Poiret One', cursive;
-  font-size: 1.65em;
-  font-weight: bolder;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.27em;
+    font-weight: bolder;
+    white-space: nowrap;
+    margin-left: -20px;
 
 }
 
