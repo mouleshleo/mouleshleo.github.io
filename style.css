@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 * {
   margin: 0;
 }
@@ -16,11 +18,24 @@ body {
   align-items: center;
 }
 
+#logo {
+  font-family: 'Poiret One', cursive;
+  font-size: 1.75em;
+  font-weight: bolder;
+
+}
+
+#logo:hover {
+  text-decoration: none;
+}
+
 .header a {
   margin-right: 20px;
   text-decoration: inherit;
   color: rgba(0, 0, 0, 0.87);
-  font-size: 18px;
+  font-size: 19px;
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
 }
 
 .header a:hover {
@@ -48,13 +63,13 @@ body {
 .mainBody {
   flex: 1;
   display: flex;
-  margin-top: 12%;
+  margin-top: 10%;
   flex-direction: column;
 }
 
 .mainBody img {
   object-fit: contain;
-  height: 100px;
+  height: 95px;
   opacity: 1;
   transition: opacity 1.3s ease-in;
 }
@@ -74,7 +89,7 @@ body {
   border-radius: 999px;
   width: 83vw;
   margin: 0 auto;
-  margin-top: 34px;
+  margin-top: 19px;
   max-width: 560px;
 }
 
