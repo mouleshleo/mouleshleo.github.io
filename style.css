@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 * {
   margin: 0;
+}
+
+@font-face {
+  font-family: 'stylish';
+  src: url("fonts/PoiretOne-Regular.ttf");
 }
 
 body {
@@ -17,11 +21,11 @@ body {
   padding: 18px 30px;
   align-items: center;
   background-color: #b8c6db;
-background-image: linear-gradient(to right, #dee1e1 -70%, #f5f7fa 64%);
+  background-image: linear-gradient(to right, #dee1e1 -70%, #f5f7fa 64%);
 }
 
 #logo {
-    font-family: 'Poiret One', cursive;
+    font-family: 'stylish',sans-serif;
     font-size: 1.27em;
     font-weight: bolder;
     white-space: nowrap;
@@ -38,7 +42,7 @@ background-image: linear-gradient(to right, #dee1e1 -70%, #f5f7fa 64%);
   text-decoration: inherit;
   color: rgba(0, 0, 0, 0.87);
   font-size: 19px;
-  font-family: 'Poiret One', cursive;
+  font-family: 'stylish';
   font-weight: bolder;
 }
 
