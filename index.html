@@ -1,5 +1,8 @@
 <html lang="en">
   <head>
+    
+    <title>reCAPTCHA demo: Simple page</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- meta starts -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -216,5 +219,12 @@
 
     <!-- script tags -->
     <script src="https://apis.google.com/js/platform.js" async defer></script>
+    
+    
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6Lc6_I4mAAAAAGE_1DtEUJhMX1PANNIgoEV--bIV"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
   </body>
 </html>
